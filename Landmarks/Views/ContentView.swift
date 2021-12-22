@@ -7,7 +7,11 @@
 
 import SwiftUI
 
+@main
+
 struct ContentView: View {
+    @StateObject private var modelData = ModelData()
+
     var body: some View {
         LandmarkList()
     }
@@ -16,5 +20,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(ModelData)
     }
 }
