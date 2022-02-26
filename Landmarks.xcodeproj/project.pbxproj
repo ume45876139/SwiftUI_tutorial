@@ -41,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1DBC2A8626F10BDC003F0DDC /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRow.swift; path = ../LandmarkRow.swift; sourceTree = "<group>"; };
+		1DBC2A8626F10BDC003F0DDC /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		1DDA3AFB26E7C62C004F0926 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DDA3AFE26E7C62C004F0926 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		1DDA3B0026E7C62C004F0926 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +88,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D00C1C327CA07A800B27E04 /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
 		1DDA3AF226E7C62C004F0926 = {
 			isa = PBXGroup;
 			children = (
@@ -111,11 +118,13 @@
 		1DDA3AFD26E7C62C004F0926 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				1DBC2A8626F10BDC003F0DDC /* LandmarkRow.swift */,
 				1DEEB8C826EE1C5A00C73792 /* Resources */,
 				1DEEB8C726EE1C1100C73792 /* Model */,
 				1DDA3AFE26E7C62C004F0926 /* LandmarksApp.swift */,
 				1DEEB8C626EE1C0300C73792 /* Views */,
 				1DDA3B0226E7C62D004F0926 /* Assets.xcassets */,
+				1D00C1C327CA07A800B27E04 /* New Group1 */,
 				1DEEB8BB26EC888B00C73792 /* New Group */,
 				1DDA3B0726E7C62D004F0926 /* Info.plist */,
 				1DDA3B0426E7C62D004F0926 /* Preview Content */,
@@ -159,7 +168,6 @@
 		1DEEB8C626EE1C0300C73792 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				1DBC2A8626F10BDC003F0DDC /* LandmarkRow.swift */,
 				1DDA3B0026E7C62C004F0926 /* ContentView.swift */,
 				1DEEB8BE26EC8F2400C73792 /* MapView.swift */,
 				1DEEB8BC26EC88F800C73792 /* CircleImage.swift */,
